@@ -6,7 +6,7 @@ The helium is included as a substitute for some of the nitrogen, to reduce the n
 
 The mixture of helium and oxygen with a 0% nitrogen content is generally known as Heliox. This is frequently used as a breathing gas in deep commercial diving operations, where it is often recycled to save the expensive helium component. Analysis of two-component gases is much simpler than three-component gases.
 
-<img src="https://github.com/captainigloo/pH-pid-controller/blob/master/docs/photo-t3%2Bezo.png" width="600">
+<img src="https://github.com/captainigloo/Trimix-analyser/blob/master/images/IMCA_Trimix_shoulder_quartered.svg.png" width="600">
 
 
 
