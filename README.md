@@ -6,6 +6,10 @@ The helium is included as a substitute for some of the nitrogen, to reduce the n
 
 The mixture of helium and oxygen with a 0% nitrogen content is generally known as Heliox. This is frequently used as a breathing gas in deep commercial diving operations, where it is often recycled to save the expensive helium component. Analysis of two-component gases is much simpler than three-component gases.
 
+<img src="https://github.com/captainigloo/pH-pid-controller/blob/master/docs/photo-t3%2Bezo.png" width="600">
+
+
+
 ## BOM
 - [Oxygen Sensor AO2 ptb-18.10](https://fr.aliexpress.com/item/City-sensor-ao2-ptb-18-10-oxygen-sensor/1258183473.html)
 - [ADS1115 16-Bit ADC](https://fr.aliexpress.com/item/ADS1115-ADC-ultra-compact-16-precision-ADC-module-development-board/32309705230.html)
