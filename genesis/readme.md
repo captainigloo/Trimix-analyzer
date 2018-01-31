@@ -1,1 +1,1 @@
-The project of a Trimix analyzer takes as point of origin after the discovery of a powerpoint presentation that you can view ![here](https://github.com/captainigloo/Trimix-analyzer/blob/master/genesis/analyseur_trimix_ppt_fr.pdf).
+The project of a Trimix analyzer takes as point of origin after the discovery of a powerpoint presentation that you can view [here](https://github.com/captainigloo/Trimix-analyzer/blob/master/genesis/analyseur_trimix_ppt_fr.pdf). The editor of this presentation seems to be **Monsieur "Yves Cazé" **.
