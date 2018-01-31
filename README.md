@@ -25,6 +25,7 @@ Or  **[%N2] = [100% of Trimix] - [%He +%O2]**
 - [Sketch Trimix-analyzer.ino](https://github.com/captainigloo/Trimix-analyzer/blob/master/src/trimix-analyzer.ino)
 
 ## Bill of materials
+- [ or compatible I²C](https://fr.aliexpress.com/item/Free-shipping-LCD-module-Blue-screen-IIC-I2C-2004-5V-20X4-LCD-board-provides-library-files/1873368596.html)
 - [Oxygen Sensor AO2 ptb-18.10](https://fr.aliexpress.com/item/City-sensor-ao2-ptb-18-10-oxygen-sensor/1258183473.html)
 - [ADS1115 16-Bit ADC](https://fr.aliexpress.com/item/ADS1115-ADC-ultra-compact-16-precision-ADC-module-development-board/32309705230.html)
 - [Carbon Dioxide gas sensor MD62](https://fr.aliexpress.com/item/heat-conduction-CO2-Carbon-Dioxide-gas-sensor-MD62/32808216273.html)
