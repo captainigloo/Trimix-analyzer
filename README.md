@@ -1,4 +1,6 @@
-# Trimix Analyser do-it-yourself
+# DIY Trimix Analyser 
+
+
 
 ## Définition of Trimix
 
