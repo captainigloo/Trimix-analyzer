@@ -20,6 +20,10 @@ Or  **[%N2] = [100% of Trimix] - [%He +%O2]**
 
 - [Point of origin project](https://github.com/captainigloo/Trimix-analyzer/blob/master/genesis/readme.md)
 
+## Code C++ (Arduino)
+
+- [Sketch Trimix-analyzer.ino](https://github.com/captainigloo/Trimix-analyzer/blob/master/src/trimix-analyzer.ino)
+
 ## Bill of materials
 - [Oxygen Sensor AO2 ptb-18.10](https://fr.aliexpress.com/item/City-sensor-ao2-ptb-18-10-oxygen-sensor/1258183473.html)
 - [ADS1115 16-Bit ADC](https://fr.aliexpress.com/item/ADS1115-ADC-ultra-compact-16-precision-ADC-module-development-board/32309705230.html)
