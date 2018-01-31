@@ -1,6 +1,6 @@
 
 /*********************************************************************************************\
- * Arduino project "trimix-analyzer.ino"
+ * Arduino project "trimix-analyzer.ino" de Yves Cazé E3 ASPTT Lyon
 \*********************************************************************************************/
 #include <Wire.h>
 #include <Adafruit_ADS1015.h>
