@@ -1,5 +1,7 @@
 # Trimix-analyser
 
+## Définition of Trimix
+
 Trimix is a breathing gas consisting of oxygen, helium and nitrogen and is often used in deep commercial diving, during the deep phase of dives carried out using technical diving techniques, and in advanced recreational diving.
 
 The helium is included as a substitute for some of the nitrogen, to reduce the narcotic effect of the breathing gas at depth. With a mixture of three gases it is possible to create mixes suitable for different depths or purposes by adjusting the proportions of each gas. Oxygen content can be optimised for the depth to limit the risk of toxicity, and the inert component balanced between nitrogen (which is cheap but narcotic) and helium (which is not narcotic and reduces work of breathing, but is more expensive and increases heat loss).
@@ -7,6 +9,8 @@ The helium is included as a substitute for some of the nitrogen, to reduce the n
 The mixture of helium and oxygen with a 0% nitrogen content is generally known as Heliox. This is frequently used as a breathing gas in deep commercial diving operations, where it is often recycled to save the expensive helium component. Analysis of two-component gases is much simpler than three-component gases.
 
 <img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/IMCA_Trimix_shoulder_quartered.svg.png" width="200"><img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/IMCA_Trimix_shoulder.svg.png" width="200">
+
+## Calculation method
 
 The method for evaluating the proportion (%) of Helium in the Trimix mixture is special. The MD62 sensor measures the proportion of all gases except nitrogen and oxygen. The AO2 sensor measures the proportion (%) of oxygen in the mixture. Ignoring the rare gases, we can deduce that on **[100% of Trimix] = [%He +%O2 +%N2]**
 
