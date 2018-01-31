@@ -16,6 +16,9 @@ The method for evaluating the proportion (%) of Helium in the Trimix mixture is 
 
 Or  **[%N2] = [100% of Trimix] - [%He +%O2]**
 
+## Genesis
+
+- [Point of origin project](https://github.com/captainigloo/Trimix-analyzer/blob/master/genesis/readme.md)
 
 ## Bill of materials
 - [Oxygen Sensor AO2 ptb-18.10](https://fr.aliexpress.com/item/City-sensor-ao2-ptb-18-10-oxygen-sensor/1258183473.html)
