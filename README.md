@@ -8,6 +8,11 @@ The mixture of helium and oxygen with a 0% nitrogen content is generally known a
 
 <img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/IMCA_Trimix_shoulder_quartered.svg.png" width="200"><img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/IMCA_Trimix_shoulder.svg.png" width="200">
 
+The method for evaluating the proportion (%) of Helium in the Trimix mixture is special. The MD62 sensor measures the proportion of all gases except nitrogen and oxygen. The AO2 sensor measures the proportion (%) of oxygen in the mixture. Ignoring the rare gases, we can deduce that on **[100% of Trimix] = [%He +%O2 +%N2]**
+
+Or  **[%N2] = [100% of Trimix] - [% He +%O2]**
+
+
 ## BOM
 - [Oxygen Sensor AO2 ptb-18.10](https://fr.aliexpress.com/item/City-sensor-ao2-ptb-18-10-oxygen-sensor/1258183473.html)
 - [ADS1115 16-Bit ADC](https://fr.aliexpress.com/item/ADS1115-ADC-ultra-compact-16-precision-ADC-module-development-board/32309705230.html)
