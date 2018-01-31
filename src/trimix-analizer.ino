@@ -23,69 +23,75 @@ RunningAverage RA1(10); // moyennage He sur 10 valeurs
 /*********************************************************************************************\
  * SETUP
 \*********************************************************************************************/
-void setup()
-{
-for(i = 1; i <10 or (abs (voltage - (tensionMoyenne / (i-1)))) > 0.001; i++)
-{
-adc0 = ads.readADC_Differential_0_1();
-RA0.addValue(adc0);
-voltage = abs(RA0.getAverage()*gain);
-tensionMoyenne = tensionMoyenne + voltage;
-delay(200);
-}
-lcd.clear();
-lcd.setCursor(0,1);
-lcd.print(" Calibrage OK");
-tensionMoyenne = tensionMoyenne / (i - 1);
-TensionCalib = tensionMoyenne;
-lcd.setCursor(0,2);
-lcd.print("V calib = ");
-lcd.print(TensionCalib,2);
-lcd.print("mV");
-delay(2000);
-lcd.setCursor(0,0);
-lcd.print("Prechauffage du");
-lcd.print(" capteur Helium...");
-delay(500);
-while(wheatstone > 10){
-adc1 = ads.readADC_Differential_2_3();
-RA1.addValue(adc1);
-wheatstone = RA1.getAverage()*gain;
-lcd.setCursor(4,3);
-lcd.print("Vpont=");
-lcd.print(wheatstone,0);
-lcd.print("mV ");
-delay(50);
-lcd.print(" Capteur He OK");
+void setup(){
+  for(i = 1; i <10 or (abs (voltage - (tensionMoyenne / (i-1)))) > 0.001; i++){
+    adc0 = ads.readADC_Differential_0_1();
+    RA0.addValue(adc0);
+    voltage = abs(RA0.getAverage()*gain);
+    tensionMoyenne = tensionMoyenne + voltage;
+    delay(200);
+  }
+  lcd.clear();
+  lcd.setCursor(0,1);
+  lcd.print(" Calibrage OK");
+  tensionMoyenne = tensionMoyenne / (i - 1);
+  TensionCalib = tensionMoyenne;
+  lcd.setCursor(0,2);
+  lcd.print("V calib = ");
+  lcd.print(TensionCalib,2);
+  lcd.print("mV");
+  delay(2000);
+  lcd.setCursor(0,0);
+  lcd.print("Prechauffage du");
+  lcd.print(" capteur Helium...");
+  delay(500);
+  while(wheatstone > 10){
+    adc1 = ads.readADC_Differential_2_3();
+    RA1.addValue(adc1);
+    wheatstone = RA1.getAverage()*gain;
+    lcd.setCursor(4,3);
+    lcd.print("Vpont=");
+    lcd.print(wheatstone,0);
+    lcd.print("mV ");
+    delay(50);
+    lcd.print(" Capteur He OK");
+  }
+}    
 void setup() {
-// initialize serial communication at 9600 bits per second:
-Serial.begin(9600);
-lcd.begin();
-lcd.backlight();
-lcd.print(" Analyseur Trimix");
-ads.setGain(GAIN_FOUR); // 4x gain 1 bit = mV
-ads.begin();
-int16_t adc0;
-int16_t adc1;
-adc0 = ads.readADC_Differential_0_1();
-RA0.addValue(adc0);
-voltage = abs(RA0.getAverage()*gain);
-adc1 = ads.readADC_Differential_2_3();
-RA1.addValue(adc1);
-wheatstone = RA1.getAverage()*gain;
-// affichage de la tension
-lcd.setCursor(0,2);
-lcd.print("V cell = ");
-lcd.print(voltage,2);
-lcd.print("mV");
-lcd.setCursor(0,3);
-lcd.print("V pont = ");
-lcd.print(wheatstone,2);
-delay(2000);
-lcd.clear();
-lcd.setCursor(0,1);
-lcd.print(" Calib. en cours ...");
-lcd.print("(utiliser de l'air)");
-// determination de la tension moyenne de la cellule à l'air libre
-int i = 0;
-float tensionMoyenne = 0;
+  // initialize serial communication at 9600 bits per second:
+  Serial.begin(9600);
+  lcd.begin();
+  lcd.backlight();
+  lcd.print(" Analyseur Trimix");
+  ads.setGain(GAIN_FOUR); // 4x gain 1 bit = mV
+  ads.begin();
+  int16_t adc0;
+  int16_t adc1;
+  adc0 = ads.readADC_Differential_0_1();
+  RA0.addValue(adc0);
+  voltage = abs(RA0.getAverage()*gain);
+  adc1 = ads.readADC_Differential_2_3();
+  RA1.addValue(adc1);
+  wheatstone = RA1.getAverage()*gain;
+  // affichage de la tension
+  lcd.setCursor(0,2);
+  lcd.print("V cell = ");
+  lcd.print(voltage,2);
+  lcd.print("mV");
+  lcd.setCursor(0,3);
+  lcd.print("V pont = ");
+  lcd.print(wheatstone,2);
+  delay(2000);
+  lcd.clear();
+  lcd.setCursor(0,1);
+  lcd.print(" Calib. en cours ...");
+  lcd.print("(utiliser de l'air)");
+  // determination de la tension moyenne de la cellule à l'air libre
+  int i = 0;
+  float tensionMoyenne = 0;
+}
+  
+void loop() {
+  
+
+}
