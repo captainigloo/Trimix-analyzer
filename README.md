@@ -30,3 +30,4 @@ Or  **[%N2] = [100% of Trimix] - [%He +%O2]**
 - [ADS1115 16-Bit ADC](https://fr.aliexpress.com/item/ADS1115-ADC-ultra-compact-16-precision-ADC-module-development-board/32309705230.html)
 - [Carbon Dioxide gas sensor MD62](https://fr.aliexpress.com/item/heat-conduction-CO2-Carbon-Dioxide-gas-sensor-MD62/32808216273.html)
 - [Flow reducer DIN 5/8](https://www.innodive.com/store/analyseurs-o2-et-he-48/reducteur-de-flux-921.html)
+- [Boad based LM2596](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=LM2596) 
