@@ -34,9 +34,5 @@ Or  **[%N2] = [100% of Trimix] - [%He +%O2]**
 - [Flow reducer DIN 5/8](https://www.innodive.com/store/analyseurs-o2-et-he-48/reducteur-de-flux-921.html)
 - [LM2596 step down power module DC-DC converter(Board based LM2596)](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=LM2596) 
 
-
-
-
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a>.
 Copyright (c) 2018 Sébastien Joly
--
--<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a>.
