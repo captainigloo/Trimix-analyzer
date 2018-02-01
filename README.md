@@ -1,6 +1,6 @@
 # DIY Trimix Analyser 
 
-<img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/trimix.jpg" height="300">
+<img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/trimix.jpg" height="300"><img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/deco-mix-sticker.jpg" height="300">
 
 ## Définition of Trimix
 
