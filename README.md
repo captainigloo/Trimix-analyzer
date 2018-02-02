@@ -2,7 +2,7 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a>.
 
-<img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/trimix.jpg" height="300"><img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/deco-mix-sticker.jpg" height="300">
+<img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/trimix.jpg" height="300">
 
 ## Définition of Trimix
 
@@ -29,6 +29,9 @@ Or  **[%N2] = [100% of Trimix] - [%He +%O2]**
 - [Sketch Trimix-analyzer.ino](https://github.com/captainigloo/Trimix-analyzer/blob/master/src/trimix-analyzer.ino)
 
 ## Bill of materials
+
+<img src="https://github.com/captainigloo/Trimix-analyzer/blob/master/images/fritzing.png" height="500">
+
 - LCD 20x4 [HD44780 20x4 I2C Interface](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=HD44780+20x4+I2C+Interface) or [compatible I²C](https://fr.aliexpress.com/item/Free-shipping-LCD-module-Blue-screen-IIC-I2C-2004-5V-20X4-LCD-board-provides-library-files/1873368596.html)
 - [Oxygen Sensor AO2 ptb-18.10](https://fr.aliexpress.com/item/City-sensor-ao2-ptb-18-10-oxygen-sensor/1258183473.html)
 - [ADS1115 16-Bit ADC](https://fr.aliexpress.com/item/ADS1115-ADC-ultra-compact-16-precision-ADC-module-development-board/32309705230.html)
